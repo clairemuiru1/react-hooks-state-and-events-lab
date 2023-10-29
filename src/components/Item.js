@@ -1,6 +1,8 @@
-import React from "react";
+import React ,{useState}from "react";
 
 function Item({ name, category }) {
+
+  const [Cart, setCart]=useState("Add to Cart")
   return (
     <li className="">
       <span>{name}</span>
